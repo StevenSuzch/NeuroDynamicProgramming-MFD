@@ -12,7 +12,7 @@ Volume 116,
 ISSN 0968-090X,
 [[Link]](https://doi.org/10.1016/j.trc.2020.102628.)
 
-If our paper hleps, please cite it as:
+If our paper helps, please cite it as:
 
 ```javascript
 @article{ZCSU2020,
