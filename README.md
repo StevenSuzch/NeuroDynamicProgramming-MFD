@@ -42,6 +42,7 @@ system by regulating the traffic state to the desired uncongested equilibrium.
 
 ## Quick Start
 
+
 ### Scenario A: Minimizing system energy (set-point control)
 1. Open the main file <Main_NeuroDynamicMFD.m>
 2. Check the simulation settings:
@@ -58,7 +59,9 @@ system by regulating the traffic state to the desired uncongested equilibrium.
     
     * Open the function file <Calculate_dPHI.m>
     * Select one of those provided kernel functions, and comment others
-    * For kernel functions are provided:
+
+4. Run the code.
         
-        $$  \hat{V}_{129}(x_1,x_2,x_3,x_4)=\sum_{k=1}^{129} w_{k}x_1^ix_2^jx_3^mx_4^n  \quad \quad   i+j+m+n=2,4,6 $$
-        
+## Contact
+
+If you have any question, please feel free to send an E-mail to zichengsu2-c@my.cityu.edu.hk.
