@@ -38,8 +38,27 @@ handle the difculty caused by the control and state constraints. This policy ite
 implemented as an iterative data-driven technique that integrates with the model-based optimal
 design based on real-time observations. Numerical experiments are conducted to show that the
 neuro-dynamic programming approach can achieve optimization goals while stabilizing the
-system by regulating the trafc state to the desired uncongested equilibrium.
+system by regulating the traffic state to the desired uncongested equilibrium.
 
 ## Quick Start
 
-### 
+### Scenario A: Minimizing system energy (set-point control)
+1. Open the main file <Main_NeuroDynamicMFD.m>
+2. Check the simulation settings:
+    
+    * Initial states of two regions
+    * Set points of two regions
+    * Demand profile (static) of each directions
+    * Control time span
+    * Weighted matrix for value function
+    * Sample time of Monte-carlo sampling
+    * The number of iterations of the Policy Iteration
+
+3. Choose the appropriate kernel function:
+    
+    * Open the function file <Calculate_dPHI.m>
+    * Select one of those provided kernel functions, and comment others
+    * For kernel functions are provided:
+        
+        $$  \hat{V}_{129}(x_1,x_2,x_3,x_4)=\sum_{k=1}^{129} w_{k}x_1^ix_2^jx_3^mx_4^n  \quad \quad   i+j+m+n=2,4,6 $$
+        
